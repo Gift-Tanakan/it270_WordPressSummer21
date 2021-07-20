@@ -27,6 +27,7 @@ get_header();
         </main>
         
         <aside>
+             this is a single post page
         </aside>
   
     </div> <!--end wrapper-->
