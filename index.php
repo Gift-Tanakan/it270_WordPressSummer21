@@ -29,12 +29,18 @@ get_header();
       
         <?php else : ?>
         
-        <?php echo wpautop('Sorry, no posts were found!'); ?>
+        <?php 
+        echo '<h2>Search Results:</h2>
+        <p>Sorry, but nothing matched your search terms.<br> Would you like to search again with different keywords?</p>'
+        ; ?>
+            <?php get_search_form(); ?>
         <?php endif; ?>
+            <!---PLEASE remember, the search results originally is working off the index.php page-->
             
         </main>
         
         <aside>
+            this is the index page
         </aside>
   
     </div> <!--end wrapper-->
