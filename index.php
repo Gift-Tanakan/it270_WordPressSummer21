@@ -1,9 +1,11 @@
 <?php 
 get_header();
 ?>
+    <div id="hero">
+    <img src="<?php echo get_template_directory_uri(); ?>/../../uploads/2021/07/yellowstone-inner.jpg" alt="banner">
+</div> <!---end hero-->
     
-    
-    <div id="wrapper">
+    <div class="wrapper">
         <main>
         <!--if we have posts, show me the posts. If not, we don't-->
         <?php if(have_posts()) : ?>
@@ -39,9 +41,7 @@ get_header();
             
         </main>
         
-        <aside>
-            this is the index page
-        </aside>
+       <?php get_sidebar(); ?>
   
     </div> <!--end wrapper-->
 
