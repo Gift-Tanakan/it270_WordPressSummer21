@@ -1,10 +1,13 @@
 <?php 
 get_header();
 ?>
+<div id="search-error">
+ <img src="<?php echo get_template_directory_uri(); ?>/../../uploads/searching-e1627363991432.jpg" alt="searching">
     
+</div>    
     
-    <div id="wrapper">
-        <main>
+    <div class="wrapper">
+        <main class="search-inner">
             
         <!--if we have posts, show me the posts.-->
             
@@ -49,7 +52,7 @@ get_header();
             <h1 class="page-title"><?php _e('No content for: ', 'site-summer-1'); ?><span class="page-description"><?php echo get_search_query(); ?></span></h1>
         
         
-        <p>Sorry, but nothing matched your search terms.<br> Would you like to search again with different keywords?</p>'
+        <p>Sorry, but nothing matched your search terms.<br> Would you like to search again with different keywords?</p>
     
             <?php get_search_form(); ?>
         <?php endif; ?>
