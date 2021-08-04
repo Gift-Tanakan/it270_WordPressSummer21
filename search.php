@@ -1,17 +1,20 @@
 <?php 
 get_header();
 ?>
+<!--
 <div id="search-error">
- <img src="<?php echo get_template_directory_uri(); ?>/../../uploads/searching-e1627363991432.jpg" alt="searching">
+ <img src="<?php echo get_template_directory_uri(); ?>/../../uploads/searching-e1627363991432.jpg" alt="cannot find">
     
 </div>    
+-->
     
-    <div class="wrapper">
-        <main class="search-inner">
+    <div class="wrapper search-inner">
+<!--        <main class="search-inner">-->
             
         <!--if we have posts, show me the posts.-->
             
         <?php if(have_posts()) : ?>
+            <img src="<?php echo get_template_directory_uri(); ?>/../../uploads/found.png" alt="found">
             <h1 class="page-title">
             <?php _e('Search results for: ', 'site-summer-1'); ?>
                 <span class="page-description">
@@ -49,6 +52,10 @@ get_header();
             
             
         <?php else : ?>
+        <div id="search-error">
+ <img src="<?php echo get_template_directory_uri(); ?>/../../uploads/searching-e1627363991432.jpg" alt="cannot find">
+    
+</div>  
             <h1 class="page-title"><?php _e('No content for: ', 'site-summer-1'); ?><span class="page-description"><?php echo get_search_query(); ?></span></h1>
         
         
@@ -58,11 +65,13 @@ get_header();
         <?php endif; ?>
             <!---PLEASE remember, the search results originally is working off the index.php page-->
             
-        </main>
+<!--        </main>-->
         
+<!--
         <aside>
             this is the search page
         </aside>
+-->
   
     </div> <!--end wrapper-->
 
