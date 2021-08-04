@@ -6,14 +6,15 @@ function my_excerpt_length($length) {
 
 add_filter('excerpt_length' , 'my_excerpt_length', 999);
 
-set_post_thumbnail_size(150, 150);
+set_post_thumbnail_size(693, 693);
 add_theme_support('post-thumbnails');
 
 //register navigation. If not register, menu won't show although being called in the header.
 register_nav_menus(array(
 'primary' => 'Primary Menu',
 'low-waste ways' => 'Low-waste ways Menu',
-'footer' => 'Footer Menu'
+'footer' => 'Footer Menu',
+'cool green apps' => 'Cool green apps Menu'
 ));
 
 // Page slug body class
@@ -25,8 +26,7 @@ function add_slug_body_class( $classes ) {
     return $classes;
 }
 add_filter( 'body_class', 'add_slug_body_class' );
-//filter below doesn't make a difference, so disable it.
-//add_filter('widget_text', 'do_shortcode');
+add_filter('widget_text', 'do_shortcode');
 
 //This will tell WP that we're linking to astuteo's jquery
 function my_theme_scripts() {
@@ -186,4 +186,4 @@ function year() {
 }
 
 add_shortcode('current_year', 'year');
-remove_filter('the_content', 'wpauto');
+remove_filter('the_content', 'wpautop');
