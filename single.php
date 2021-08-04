@@ -1,9 +1,14 @@
 <?php 
 get_header();
 ?>
+<!--
     <div id="hero">
         <img src="<?php echo get_template_directory_uri(); ?>/../../uploads/2021/07/yellowstone-inner.jpg" alt="banner">
-    </div> <!---end hero-->
+    </div> 
+-->
+<!---end hero-->
+<img  class="textbanner" src="<?php echo get_template_directory_uri(); ?>/../../uploads/banner.jpg" alt="banner">
+<img class="notextbanner" src="<?php echo get_template_directory_uri(); ?>/../../uploads/inner-banner.jpg" alt="banner">
     
     <div class="wrapper">
         <main>
@@ -32,9 +37,7 @@ get_header();
             <?php comments_template(); ?>
         </main>
         
-        <aside>
-             this is a single post page
-        </aside>
+        <?php get_sidebar(); ?>
   
     </div> <!--end wrapper-->
 
