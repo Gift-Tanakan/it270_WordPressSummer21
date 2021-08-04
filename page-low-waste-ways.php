@@ -3,9 +3,14 @@ get_header();
 
 /* Template Name: Low-waste-ways Page*/
 ?>
+<!--
 <div id="hero">
     <img src="<?php echo get_template_directory_uri(); ?>/../../uploads/2021/07/yellowstone-inner.jpg" alt="banner">
-</div> <!---end hero-->
+</div> 
+-->
+<!---end hero-->
+ <img  class="textbanner" src="<?php echo get_template_directory_uri(); ?>/../../uploads/banner.jpg" alt="banner">
+<img class="notextbanner" src="<?php echo get_template_directory_uri(); ?>/../../uploads/inner-banner.jpg" alt="banner">
     
     
     <div class="wrapper">
