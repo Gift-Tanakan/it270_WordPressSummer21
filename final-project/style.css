@@ -1,0 +1,1141 @@
+/*styles for my portfolio theme wordpress
+Theme name: Portfolio Theme
+Developer: Gift Homsaen
+Description: Final project of IT270 summer 21*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: beige;
+    background: #E8F0F2;
+    background: #fff;
+    line-height: 1.5;
+    font-size: 100%;
+    font-family: Geneva, Verdana, Tahoma, sans-serif;
+}
+
+
+/********** top bar with search form **********/
+
+#top {
+    background: #E8F0F2;
+    background: #A2DBFA;
+    background: #39A2DB;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+}
+
+#top #searchform {
+    float: right;
+}
+
+#top input#s {
+    height: 30px;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+#top input#searchsubmit {
+    padding: 4px;
+    background: darkred;
+    color: #fff;
+}
+
+.error404 .search-inner #searchform,
+.search .search-inner #searchform,
+.page-id-67 #searchform {
+    margin-bottom: 20px;
+}
+
+/************ end search form on top bar ***********/
+
+#search-2 {
+    margin-bottom: 10px;
+}
+
+input#searchsubmit {
+    padding: 5px 10px;
+    background: #334257;
+    border-radius: 7%;
+    color: #fff;
+}
+
+input#searchsubmit:hover {
+    background: #476072;
+}
+
+input#s {
+    padding: 3px;
+}
+/********** main search form **********/
+
+.screen-reader-text {
+    display: none;
+}
+
+main input#s {
+    height: 30px;
+    font-size: 14px;
+    margin-right: 5px;
+    width: 80%;
+}
+
+/******* Post Content in Blog*********/
+
+.post-content {
+    margin-top: 20px;
+}
+
+/********** end main search form **********/
+
+
+
+.home .size-post-thumbnail {
+    width: 100%;
+    height: 100%;
+    
+}
+
+header {
+
+    background: #548CA8;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.inner-header {
+    max-width: 1100px;
+    margin: 0 auto;
+   
+}
+
+#logo {
+    width: auto;
+    float: left;
+}
+
+/********** navigation **********/
+
+/*
+.menu-my-primary-menu-container {
+    float: right;
+   
+}
+*/
+
+#site-navigation .primary-nav {
+    margin-top: 15px;
+    float: right;
+}
+
+.main-navigation li {
+    float: left;
+    list-style-type: none;
+    margin-left: 20px;
+    position: relative;
+}
+
+.main-navigation a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    font-weight: bold;
+}
+
+.sub-menu {
+    display: none;
+}
+
+.main-navigation li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    padding: 6px;
+    margin-top: 2px;
+    background: #053742;
+    
+}
+
+.main-navigation li:hover .sub-menu li {
+    margin-left: 0;
+    width: 155px;
+}
+
+.main-navigation li:hover .sub-menu li:hover {
+    background: #476072;
+}
+
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    clear: both;
+}
+
+main {
+    float: left;
+    width: 63%;
+    
+    margin-bottom: 20px;
+}
+
+.text-wrapper {
+    margin: 20px auto 0px auto;
+}
+aside {
+    float: right;
+    width: 34%;
+    margin-top: 20px;
+    
+}
+
+.search .posts {
+    width:  63%;
+/*    background: pink;   */
+}
+
+.row {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+/******** Category Page group *********/
+
+.center {
+    margin: 0px auto 20px auto;
+}
+
+/************** containers in aside ************/
+
+/*recent post & category widget on category page*/
+
+#recent-posts-3 {
+    margin-top: 15px;
+    padding: 0 3%;
+}
+
+#recent-posts-3 ul {
+    margin-left: 3%;
+}
+
+#recent-posts-3 li {
+    margin-left: 3%;
+    line-height: 1.5;
+}
+
+#categories-3 {
+    margin-top: 10px;
+    padding: 0 3%;
+}
+
+#categories-3 ul {
+    margin-left: 3%;
+}
+
+#categories-3 li {
+    margin-left: 3%;
+    line-height: 1.5;
+}
+
+.error404 #categories-3 {
+    margin-bottom: 20px;
+}
+
+.sidebar-list {
+    margin-bottom: 7px;
+    margin-left: 5%;
+}
+
+/*About page sidebar widget*/
+
+#secondary {
+    padding: 20px;
+}
+
+#recent-posts-2 ul {
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+
+#categories-2 ul {
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+
+#text-4 {
+    padding: 5%;
+    background: #EEEEEE;
+    margin-bottom: 20px;
+}
+
+#text-4 p {
+    margin-bottom: 0px;
+}
+
+/*the low-waste menu widget on low-waste page*/
+
+#custom_html-3 {
+   
+}
+
+#nav_menu-2 {
+    padding: 20px;
+    margin-top: -45px;
+    background: #FED7BF;
+    background: #fee7d8;
+    margin-bottom: 20px;
+}
+
+/*green apps menu widget on low-waste page*/
+#nav_menu-3 {
+    background: #FED7BF;
+    background: #fee7d8;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+#menu-cool-green-apps {
+    margin-left: 10px;
+}
+
+.menu-cool-green-apps-container li {
+    list-style-type: none;
+}
+
+#custom_html-4 {
+    margin-bottom: 20px;
+} 
+
+#nav_menu-2 ul {
+    margin-left: 10px;
+    
+}
+
+#nav_menu-2 li {
+    list-style-type: none;
+}
+
+/******** testimonial widget *********/
+
+.testimonials-widget {
+    max-width: 1100px;
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+      
+}
+.testimonial-wrapper {
+    background: #EEEEEE;
+}
+.empty {
+    clear: both;
+}
+
+.testimonials-widget p {
+    margin-bottom: 0;
+}
+#block-8 p {
+    margin-bottom: 0;
+}
+
+/********** main contact form ***********/
+
+.page-contact #form_contact-form {
+
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.page-contact .wpforms-field-textarea {
+/*    max-width: 480px;*/
+}
+
+.page-contact #wpforms-submit-130 {
+    margin-bottom: 20px;
+}
+
+/******** Full-page search page********/
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/************** containers in aside ************/
+
+.blog aside,
+.page-id-168 aside,
+.page-id-174 aside,
+.single aside,
+.archive aside {
+    background: #eeeeee;
+}
+
+.full-width {
+    clear: both;
+    background: #efe;
+   
+}
+
+/*the highlight widget*/
+#custom_html-4 {
+    max-width: 600px;
+    margin: 0 auto;
+    padding:  20px 3%;
+    text-align: center;
+}
+
+footer {
+    padding-top: 15px;
+    clear: both;
+    
+}
+
+footer .row {
+    text-align: center;
+}
+
+.home footer,
+.page-about footer,
+.page-contact footer {
+    padding-top: 0px;
+}
+
+.third {
+/*    940 px grid
+    300 x 3 + 2 gutter of 20px = 940px*/
+    padding: 0 1.75%;
+    width: 31.91%;
+    float: left;
+    margin-right: 2.12%;
+}
+
+.third:last-of-type {
+    margin-right: 0;
+}
+
+.third p {
+    max-width: 600px;
+}
+
+.col-8 {
+    width: 48.93%;
+    float: left;
+}
+
+.col-8:last-of-type {
+    float: right;
+}
+
+.col-8 ul {
+    text-align: center;
+}
+
+.col-8 li {
+    list-style-type: none;
+}
+
+.copyright {
+    clear: both;
+    height: 50px;
+    line-height: 50px;
+    background: #548CA8;
+}
+
+.copyright ul {
+    list-style-type: none;
+    max-width: 1100px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.copyright a {
+     color: #fff;
+}
+
+.copyright li {
+    float: left;
+    margin-right: 30px;
+}
+
+.thumbnail {
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gap {
+    margin-bottom: 10px;
+}
+
+.wp-image-50 {
+    margin: 20px auto;
+    border-radius: 50%;
+    max-width : 130px;
+}
+
+.email-notes {
+    font-style: italic;
+}
+
+/*****reply form******/
+
+#comment,
+#author,
+#email,
+#url {
+    display: block;
+    width: 100%;
+    max-width: 550px;
+}
+
+#author,
+#email,
+#url {
+    max-width: 350px;
+}
+
+#submit {
+    padding: 5px 10px;
+    background: #334257;
+    color: #fff;
+    border-radius: 7%;
+}
+
+#submit:hover {
+    background: #476072;
+}
+
+.comment-notes + .comment-form-comment {
+    margin: -14px 0 20px 0;
+}
+
+#respond {
+    background: #EEEEEE;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+#form_contact-form .frm_button_submit,
+#form_newslettersignupform .frm_button_submit{
+    font-family: Geneva, Verdana, Tahoma, sans-serif;
+    background: #334257;
+    border: none;
+}
+
+#form_contact-form .frm_button_submit:hover,
+#form_newslettersignupform .frm_button_submit:hover {
+    background: #476072;
+    color: #fff;
+}
+
+
+.next-previous {
+    display: block;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: #548CA8;
+}
+
+.next-previous a {
+    color: #548CA8;
+}
+
+/******* Email Signup form widget - about template**********/
+
+.page-about #frm_form_4_container {
+    background: #EEEEEE;
+    padding: 3% 5% 0 5%;
+    margin-bottom: 30px;
+    
+}
+
+.page-about #frm_field_16-first_container {
+    margin-bottom: 0px;
+}
+
+.page-about #frm_field_16-last_container {
+    margin-bottom: 0px;
+}
+
+.page-about .frm_button_submit {
+    margin: -10px;
+}
+
+/*
+#frm_show_form-2 {
+    margin-top: 48px;
+}
+*/
+/******* end Email Signup form widget - about template**********/
+
+/************ Testimonials ***********/
+.page-testimonials .testimonials {
+
+    max-width: 550px;
+    margin: 0px auto 20px auto;
+}
+
+/************* typography **************/
+
+h1, h2, h3, h4 {
+    font-family: playfair, serif;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    color: cadetblue;
+    color: #737373;
+    color: #5f5f5f;
+}
+.block {
+    display: block;
+}
+
+p + .block {
+    margin: -10px 0 20px 0;
+}
+
+
+article span {
+    font-style: italic;
+}
+
+h1 {
+    font-size: 2.44em;
+    color: #334257;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.home h1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.home a {
+    text-decoration: none;
+}
+
+.home h1, 
+.home h2,
+.home h3, 
+.home h4 {
+    text-align: center;
+}
+
+.home h2 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.testimonials-widget h2 {
+    margin: 20px auto;
+}
+.home-third {
+    margin-left: 3%;
+    margin-top : 3%;
+    margin-bottom: 3%;
+}
+
+.wp-image-32,
+.wp-image-83,
+.wp-image-130,
+.wp-image-133 {
+    margin-bottom: 20px;
+}
+
+.page-contact h1,
+.page-testimonials h1 {
+    text-align: center;
+}
+
+footer h2 {
+    text-align: center;
+}
+h3 .widget-title {
+    padding: 0 3px;
+    color: #fff;
+}
+
+.page-refill-van h3 .widget-title,
+.page-scoop-marketplace h3 .widget-title,
+.page-farmers-markets h3 .widget-title,
+.page-stories-of-stuff h3 .widget-title {
+    background: none;
+    padding: 0 3px;
+}
+
+figcaption {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+h2 {
+    font-size: 1.88em;
+    color: #476072;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #548CA8;
+    margin-bottom: 8px;
+}
+.single h3 {
+    margin-bottom: 0px;
+}
+
+h4 {
+    font-size: 1.25em;
+    color: #548CA8;
+    margin-bottom: 8px;
+}
+
+.page-id-168 h4,
+.page-id-174 h4 {
+    margin-bottom: 0px;
+}
+
+.button {
+    padding: 5px;
+    display: block;
+    margin: 30px auto 20px auto;
+    text-align: center;
+    max-width: 120px;
+    border-radius: 8%;
+    background: #334257;
+}
+
+.button:hover {
+    background: #476072;
+}
+
+.button a {
+     color: #fff;
+}
+
+#intro {
+    font-style: italic;
+    margin: 0 25% 30px 25%;
+    text-align: center;
+}
+
+.page-contact #intro {
+    font-style: normal;
+}
+
+.big-font {
+    font-size: 1.4em;
+    margin: 0 5% 20px 5%;
+}
+
+.meta {
+    margin-bottom: 10px;
+}
+
+.content-list {
+    margin-left: 3%;
+    margin-bottom: 20px;
+}
+/***************** mobile nav ******************/
+
+.nav-button { display: none; } /* hide the navigation button by default */
+
+
+@media screen and (max-width:1430px) {
+    
+    
+}
+
+@media screen and (max-width:1140px) {
+    
+    body {
+/*        background: orange;*/
+         font-size: 98%;
+    }
+    
+    .menu-primary-menu-container {
+    padding-right: 30px;
+    }
+
+    #logo {
+    margin-left: 20px;
+    }
+    
+    .wrapper {
+        margin: 20px 30px;
+    }
+    
+    .testimonials-widget {
+        width: auto;
+    }
+    
+    .inner-hearder {
+        margin: 0 30px;
+    }
+    
+    .copyright {
+        padding: 3%;
+        text-align: center;
+        height: auto;
+        line-height: 1.5;
+    }
+
+    .copyright li {
+        float: none;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    body {
+/*        background: lightgreen; */
+        font-size: 96%;
+    }
+    
+}
+
+@media screen and (max-width:800px) {
+    
+    body {
+        font-size: 94%;
+    }
+    
+    h1 {
+        font-size: 2em;   
+    }
+    .wrapper {
+        margin: 20px 15px;
+    }
+    .testimonials-widget {
+        width: auto;
+    }
+    
+    .inner-hearder {
+        margin: 0 15px;
+    }
+    
+    blockquote {
+        font-size: 1.3em;
+        margin: 0 2% 20px 2%;
+        text-align: center;
+    }
+    
+    .home h1 {
+        
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    
+    .big-font {
+        font-size: 1.2em;
+        margin: 0 2% 20px 2%;
+    }
+    
+    .third {
+/*    940 px grid
+    300 x 3 + 2 gutter of 20px = 940px*/
+    width: auto;
+    float: none;
+    margin-right: 0;
+    }
+
+    .third p {
+        margin: 0 auto 20px auto;
+        max-width: 600px;
+    }
+    
+    .third img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .third figcaption, .third h3 {
+        text-align: center;
+    }
+    
+    .testimonials-widget {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .button {
+    margin: 20px auto;
+    }
+    
+}
+
+
+@media only screen and (max-width: 700px) {
+    
+/*
+    .inner-page #hero, .home #hero {
+    margin-top: 0px;
+    }
+*/
+    #site-navigation .primary-nav {
+     margin-top: 0px;
+    }
+
+    #top {
+    background: none;
+    height: auto;
+    line-height: inherit;
+    padding: 0;
+    }
+
+    #top #searchform {
+    float: none;
+    position: fixed;
+        top: 10px;
+        right: 10px;
+/*        z-index: 10000;*/
+    }
+    
+    header {
+    height: auto;
+    position: static;
+/*    background: none;*/
+    }
+
+
+    #logo {
+    width: 100px;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    }
+
+    #intro {
+    margin: 0 7% 30px 7%;
+    }
+    
+    .col-8 {
+    width: auto;
+    float: none;
+    }
+
+    .col-8:last-of-type {
+    float: none;
+    }
+    
+    .margin-bottom {
+    margin-bottom: 20px;
+    }
+
+    main {
+    float: none;
+    width: auto;
+    margin-bottom: 20px;
+    }
+
+    .text-wrapper {
+    margin: 20px 3% 0px 3%;    
+    }
+    
+    .blog p,
+    .testimonials p {
+    margin: 20px 3% 20px 3%;
+    }
+    
+    aside {
+    float: none;
+    width: auto;
+    margin-top: 20px;
+    
+    }
+    .primary-nav li ul a {
+    padding: 10px 8%;
+    }
+    
+    .testimonials-widget {
+        width: auto;
+    }
+
+    
+	/* Navigation Button
+	-------------------------------------------------------- */
+
+	.nav-button {
+		display: block;
+		position: fixed;
+		top: 7px;
+		left: 7px;
+		width: 50px;
+		height: 35px;
+		background: url('images/menu-icon-large.png'), linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: 21px, 100%;
+		cursor: pointer;
+		border: 0 none;
+		border-bottom: 1px solid rgba(255,255,255,.1);
+		box-shadow: 0 0 4px rgba(0,0,0,.7) inset;
+		border-radius: 5px;
+		z-index: 999;
+		text-indent: -9999px;
+	}
+	.nav-button:hover {
+		background-color: rgba(0,0,0,.1);
+	}
+	.nav-button.open {
+		background: url('images/close-icon-large.png'), linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: 21px, 100%;
+	}
+
+	/* Navigation Bar
+	-------------------------------------------------------- */
+
+	body { padding-top: 50px; }
+
+	.primary-nav {
+		width: 100%;
+		float: none;
+        background-color: #053742;
+		background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,.2));
+		display: block;
+		height: 50px;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		box-shadow: 0 1px 2px rgba(0,0,0,.6);
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		z-index: 998;
+		clear: both;
+	}
+	.primary-nav li {
+		display: none;
+		width: 100%;
+		font-family: Geneva, Verdana, Tahoma, sans-serif;
+	}
+    
+    .main-navigation li {
+        margin-left: 0;
+    }
+    
+    .main-navigation li:hover .sub-menu {
+    position: static;
+    top: 0;
+    padding: 0;
+    }
+    
+    .main-navigation li:hover .sub-menu li {
+    
+    width: 100%;
+}
+    
+	.primary-nav li a {
+		display: block;
+		width: 100%;
+		padding: 10px 5%;
+		font-size: 14px;
+		font-weight: bold;
+		text-shadow: -1px -1px 0 rgba(0,0,0,.15);
+		color: white;
+		text-decoration: none;
+		border-bottom: 1px solid rgba(0,0,0,.2);
+		border-top: 1px solid rgba(255,255,255,.1);
+	}
+	.primary-nav li a:hover {
+		background-color: rgba(0,0,0,.5);
+		border-top-color: transparent;
+	}
+	.primary-nav > li:first-child {
+		border-top: 1px solid rgba(0,0,0,.2);
+	}
+
+	/* Toggle the navigation bar open  */
+
+	.primary-nav.open {
+		height: auto;
+		padding-top: 50px;
+	}
+	.primary-nav.open li {
+		display: block;
+	}
+
+	/* Submenus – optional .parent class indicates dropdowns */
+
+	.primary-nav > li:hover > a {
+		background: rgba(0,0,0,.5);
+		border-bottom-color: transparent;
+	}
+	.primary-nav li.parent > a:after {
+		content: "▼";
+		color: rgba(255,255,255,.5);
+		float: right;
+	}
+	.primary-nav li.parent > a:hover {
+		background: rgba(0,0,0,.75);
+	}
+	.primary-nav li ul {
+		display: none;
+		background: rgba(0,0,0,.5);
+		border-top: 0 none;
+		padding: 0;
+	}
+	.primary-nav li ul a {
+		border: 0 none;
+		font-size: 12px;
+		padding: 10px 8%;
+		font-weight: normal;
+	}
+	.primary-nav li:hover ul {
+		display: block;
+		border-top: 0 none;
+	}
+
+} 
+
+@media screen and (max-width: 600px) {
+    #frm_field_1_container, #frm_field_2_container {
+        margin-bottom: 0px;
+    }
+    
+    #intro {
+    margin: 0 6% 30px 6%;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    
+    #top input#s {
+        width: 150px;
+    }
+    
+    .page-contact #form_contact-form .frm_button_submit,
+    .page-about #form_newslettersignupform .frm_button_submit{
+        width: 100%;
+    }
+    
+    #search-2 input#s {
+    width: 150px;
+    }
+    
+    }
+
+/* End Mobile Styles */
+
+/*********** end mobile nav**********/
